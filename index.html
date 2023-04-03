@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Stock Database System</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  
+  <body>
+    <h1>Grocery Database System</h1>
+    
+    <div id="search-bar">
+      <input type="text" id="search-input" placeholder="Search...">
+      <button id="search-btn" onclick="search()">Search</button>
+    </div>
+    <style></style>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Stock</th>
+        <th>Actions</th>
+      </tr>
+      
+      
+    </table>
+    
+    <div id="new-product-form">
+      <h2>New Product</h2>
+      <input type="text" id="new-product-name" placeholder="Name">
+      <input type="number" id="new-product-price" placeholder="Price">
+      <input type="number" id="new-product-stock" placeholder="Stock">
+      <button onclick="addNewProduct()">Add Product</button>
+    </div>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
